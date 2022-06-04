@@ -963,24 +963,24 @@ Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://c
 * Org-dashboard
 
 #+begin_src elisp :tangle packages.el
-(package! org-dashboard)
+;(package! org-dashboard)
 #+end_src
 
 All files need to be specified
 #+begin_src elisp :tangle config.el
-(setq org-dashboard-files '(
-                            "~/roam/pages/MTEC/FS2022/human_resource_management.org"
-                            ))
+;(setq org-dashboard-files '(
+;                            "~/roam/pages/MTEC/FS2022/human_resource_management.org"
+;                            ))
 #+end_src
 
 Also change the displayed colors
 #+begin_src elisp :tangle config.el
-(setq org-dashboard-show-category nil)
-(defun org-dashboard--progress-color (percent)
-  (cond ((< percent 33) "red")
-        ((< percent 66) "orange")
-        ((< percent 100) "yellow")
-        (t "green")))
+;(setq org-dashboard-show-category nil)
+;(defun org-dashboard--progress-color (percent)
+;  (cond ((< percent 33) "red")
+;        ((< percent 66) "orange")
+;        ((< percent 100) "yellow")
+;        (t "green")))
 #+end_src
 
 * Ob-ein
