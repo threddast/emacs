@@ -43,6 +43,7 @@ To call emacsclient and open it as the focused window in gnome execute:
 - [[https://github.com/danilevy1212/doom]]
 - [[https://www.gtrun.org/post/config/]]
 - https://xqzp.net/pmy/blog/sync-org-mode-agenda-to-calendar-apps/
+- https://github.com/daviwil/dotfiles/blob/master/Emacs.org
 
 * Init.el
 #+begin_src elisp :tangle init.el
