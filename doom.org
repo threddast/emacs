@@ -969,21 +969,7 @@ Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://c
 All files need to be specified
 #+begin_src elisp :tangle config.el
 (setq org-dashboard-files '(
-                            "~/roam/pages/MTEC/FS2022/applied_cryptography.org"
                             "~/roam/pages/MTEC/FS2022/human_resource_management.org"
-                            "~/roam/pages/MTEC/FS2022/strategic_management.org"
-                            "~/roam/pages/MTEC/FS2022/decisions_and_markets.org"
-                            "~/roam/pages/MTEC/FS2022/agent_based_modelling_of_social_systems.org"
-                            "~/roam/pages/MTEC/FS2022/financial_management.org"
-                            "~/roam/pages/MTEC/FS2022/principles_of_econometrics.org"
-                            "~/roam/pages/MTEC/FS2022/economic_growth_cycles_and_policy.org"
-                            "~/roam/pages/MTEC/FS2022/complex_networks.org"
-                            "~/roam/pages/MTEC/FS2022/academic_writing_course.org"
-                            "~/roam/pages/MTEC/FS2022/knowledge_management.org"
-                            "~/roam/pages/MTEC/FS2022/cyber_security.org"
-                            "~/roam/pages/MTEC/FS2022/entrepreneurship.org"
-                            "~/roam/pages/MTEC/FS2022/power_and_leadership.org"
-                            "~/roam/pages/MTEC/FS2022/effective_learning_strategies.org"
                             ))
 #+end_src
 
