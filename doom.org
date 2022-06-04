@@ -38,7 +38,7 @@
 Just select Fira code regular as monospace font. For the icons, you need to have =nerd-fonts-fira-code= installed from the AUR
 ** Emacsclient shortcut
 To call emacsclient and open it as the focused window in gnome execute:
-=emacsclient -c -e "(select-frame-set-input-focus (selected-frame))" "(+doom-dashboard-mode)"=
+~emacsclient -c -e "(select-frame-set-input-focus (selected-frame))" "(+doom-dashboard-mode)"~
 ** Some useful configs
 - [[https://github.com/danilevy1212/doom]]
 - [[https://www.gtrun.org/post/config/]]
