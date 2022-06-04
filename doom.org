@@ -1179,6 +1179,8 @@ This also applies to subdirectories. This line is needed in the directory:
 (package! centered-window)
 #+end_src
 
+https://github.com/daviwil/dotfiles/blob/master/Emacs.org#org-present helped a lot
+
 #+begin_src elisp :tangle config.el
 (setq cwm-incremental-padding t)
 (setq cwm-use-vertical-padding t)
@@ -1239,7 +1241,9 @@ This also applies to subdirectories. This line is needed in the directory:
          (org-present-mode-quit . threddast/org-present-quit-hook)))
 #+end_src
 
-#+begin_src elisp :tangle config.el
+This would be a config for org-tree-slide, included with the org ~+present~ flag. However, I find it difficult to customise, ~org-present~ is more than enough for my use case at the moment
+
+  #+begin_src elisp
 ;(setq +org-present-text-scale 1.5)
 ;(setq +org-present-hide-first-heading t)
 ;(require 'org-tree-slide)
