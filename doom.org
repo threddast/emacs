@@ -1242,7 +1242,7 @@ https://github.com/daviwil/dotfiles/blob/master/Emacs.org#org-present helped a l
          (org-present-mode-quit . threddast/org-present-quit-hook)))
 #+end_src
 
-This would be a config for org-tree-slide, included with the org ~+present~ flag. However, I find it difficult to customise, ~org-present~ is more than enough for my use case at the moment
+This would be a config for org-tree-slide, included with the org =+present= flag. However, I find it difficult to customise, =org-present= is more than enough for my use case at the moment
 
   #+begin_src elisp
 ;(setq +org-present-text-scale 1.5)
