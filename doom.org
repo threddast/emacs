@@ -600,6 +600,7 @@ With a prefix ARG, remove start location."
 * Org tables move single cells
 Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://cs.gmu.edu/~kauffman/software/org-table-move-single-cell.el][George Mason University]]
 #+begin_src elisp :tangle config.el
+test
 (add-hook 'org-mode-hook
  #'(lambda ()
     (local-set-key [C-M-up] (quote org-table-move-single-cell-up))
