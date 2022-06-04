@@ -656,6 +656,7 @@ Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://c
   (org-table-move-single-cell 'right))
 #+end_src
 
+
 * Super agenda
 #+begin_src elisp :tangle packages.el
 (package! org-super-agenda)
