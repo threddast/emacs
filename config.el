@@ -744,37 +744,3 @@ With a prefix ARG, remove start location."
   :hook (;(org-present-mode . evil-normalize-keymaps)
          (org-present-mode . threddast/org-present-hook)
          (org-present-mode-quit . threddast/org-present-quit-hook)))
-
-;(setq +org-present-text-scale 1.5)
-;(setq +org-present-hide-first-heading t)
-;(require 'org-tree-slide)
-(defun threddast/org-start-presentation ()
-  (interactive)
-  (org-display-inline-images) ;; Can also use org-startup-with-inline-images
-  (centered-window-mode t)
-  )
-
-(defun threddast/org-end-presentation ()
-  (interactive)
-  ;; Show the mode line again
-)
-
-(use-package org-tree-slide
-  :hook ((org-tree-slide-play . threddast/org-start-presentation)
-         (org-tree-slide-stop . threddast/org-end-presentation))
-  :custom
-  (evil-define-key 'normal org-tree-slide-mode-map
-    (kbd "q") 'dw/org-end-presentation
-    (kbd "C-<right>") 'org-tree-slide-move-next-tree
-    (kbd "C-<left>") 'org-tree-slide-move-previous-tree)
-  (org-tree-slide-activate-message "Presentation started!")
-  (org-tree-slide-deactivate-message "Presentation finished!")
-  ;; activate the presentation profile
-  (org-tree-slide-header t)
-  (org-tree-slide-slide-in-effect t)
-  (org-tree-slide-heading-emphasis nil)
-  (org-tree-slide-cursor-init t)
-  (org-tree-slide-modeline-display 'outside)
-  (org-tree-slide-skip-done nil)
-  (org-tree-slide-skip-comments t)
-  )
