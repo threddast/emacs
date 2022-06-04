@@ -31,7 +31,7 @@
 - [[#lorem-ipsum-generator][Lorem ipsum generator]]
 - [[#presentations-with-org][Presentations with org]]
 - [[#nano-theme][Nano theme]]
-- [[#literate-calc-mode][Literate calc mode]]
+- [[#math-at-point][math at point]]
 
 * Preamble
 ** Fonts
@@ -1277,9 +1277,8 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 ;(package! nano-theme :recipe (:host github :repo "rougier/nano-theme"))
                                    #+end_src
 
-* Literate calc mode
+* math at point
 
 #+begin_src elisp :tangle packages.el
-(package! literate-calc-mode)
+(package! math-at-point :recipe (:host github :repo "shankar2k/math-at-point"))
                                    #+end_src
-
