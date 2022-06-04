@@ -654,7 +654,6 @@ Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://c
   "Move a single cell right in a table; swap with anything in target cell"
   (interactive)
   (org-table-move-single-cell 'right))
-
 #+end_src
 
 * Super agenda
