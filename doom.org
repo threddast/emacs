@@ -505,6 +505,7 @@ Provided in the doom org flag +dragndrop
 (setq org-download-method 'directory)
 #+end_src
 
+
 * Org export to LaTeX
 Especially used to export the CV
 #+begin_src elisp :tangle config.el
