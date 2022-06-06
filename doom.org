@@ -33,6 +33,7 @@
 - [[#nano-theme][Nano theme]]
 - [[#math-at-point][math at point]]
 - [[#selectric-mode][Selectric mode]]
+- [[#xkcd][Xkcd]]
 
 * Preamble
 ** Fonts
@@ -1287,4 +1288,10 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 * Selectric mode
 #+begin_src elisp :tangle packages.el
 (package! selectric-mode)
+#+end_src
+
+* Xkcd
+
+#+begin_src elisp :tangle packages.el
+(package! xkcd)
 #+end_src
