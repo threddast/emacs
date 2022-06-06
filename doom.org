@@ -32,6 +32,7 @@
 - [[#presentations-with-org][Presentations with org]]
 - [[#nano-theme][Nano theme]]
 - [[#math-at-point][math at point]]
+- [[#selectric-mode][Selectric mode]]
 
 * Preamble
 ** Fonts
@@ -1283,3 +1284,7 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 #+begin_src elisp :tangle packages.el
 (package! math-at-point :recipe (:host github :repo "shankar2k/math-at-point"))
                                    #+end_src
+* Selectric mode
+#+begin_src elisp :tangle packages.el
+(package! selectric-mode)
+#+end_src
