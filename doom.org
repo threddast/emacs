@@ -1302,5 +1302,3 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 (package! treemacs)
 #+end_src
 
-#+RESULTS:
-| xkcd | :modules | ((:private . doom) (:private . modules)) |
