@@ -34,6 +34,7 @@
 - [[#math-at-point][math at point]]
 - [[#selectric-mode][Selectric mode]]
 - [[#xkcd][Xkcd]]
+- [[#treemacs][Treemacs]]
 
 * Preamble
 ** Fonts
@@ -1295,3 +1296,11 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 #+begin_src elisp :tangle packages.el
 (package! xkcd)
 #+end_src
+
+* Treemacs
+#+begin_src elisp :tangle packages.el
+(package! treemacs)
+#+end_src
+
+#+RESULTS:
+| xkcd | :modules | ((:private . doom) (:private . modules)) |
