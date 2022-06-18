@@ -34,7 +34,6 @@
 - [[#math-at-point][math at point]]
 - [[#selectric-mode][Selectric mode]]
 - [[#xkcd][Xkcd]]
-- [[#treemacs][Treemacs]]
 
 * Preamble
 ** Fonts
@@ -95,7 +94,7 @@ To call emacsclient and open it as the focused window in gnome execute:
        ophints             ; highlight the region an operation acts on
        (popup +defaults)   ; tame sudden yet inevitable temporary windows
        ;;tabs              ; a tab bar for Emacs
-       ;;treemacs          ; a project drawer, like neotree but cooler
+       (treemacs +lsp)     ; a project drawer, like neotree but cooler
        ;;unicode           ; extended unicode support for various languages
        vc-gutter           ; vcs diff in the fringe
        vi-tilde-fringe     ; fringe tildes to mark beyond EOB
@@ -1296,9 +1295,3 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 #+begin_src elisp :tangle packages.el
 (package! xkcd)
 #+end_src
-
-* Treemacs
-#+begin_src elisp :tangle packages.el
-(package! treemacs)
-#+end_src
-
