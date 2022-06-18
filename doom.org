@@ -1300,7 +1300,7 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 * Treemacs
 
 #+begin_src elisp :tangle config.el
-(setq doom-themes-treemacs-theme "default")
+(setq doom-themes-treemacs-theme "doom-colors")
 ;(require 'treemacs-all-the-icons)
 ;(treemacs-load-theme "all-the-icons")
 #+end_src
