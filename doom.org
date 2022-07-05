@@ -259,7 +259,7 @@ To call emacsclient and open it as the focused window in gnome execute:
 
        :config
        ;;literate
-       (default +bindings +smartparens))
+       (default +bindings))
 #+end_src
 
 * Doom's config.el and packages.el
