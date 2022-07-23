@@ -735,7 +735,7 @@ Move single cells using C-M-up C-M-down C-M-left C-M-right, got from [[https://c
                     ;  (org-agenda-format-date "")
                       (org-agenda-prefix-format '((agenda . "   %-21c%?-12t ")))
                       (org-clocktable-defaults '(:fileskip0 t :formula % :indent t :hidefiles t))
-                      (org-agenda-clockreport-mode t)
+                     ; (org-agenda-clockreport-mode t)
                       (org-super-agenda-groups
                        '(
                          (:name "Today"
