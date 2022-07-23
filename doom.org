@@ -445,8 +445,8 @@ Set up id and secret to comunicate with the gcal API
 #+begin_src elisp :tangle config.el
 (setq org-gcal-client-id  (threddast/get-secret 'org-gcal-client-id)
       org-gcal-client-secret (threddast/get-secret 'org-gcal-client-secret)
-      org-gcal-fetch-file-alist '(("giorgiserik@gmail.com" .  "~/roam/pages/gcal.org")
-                                  ("42t8m1491a8edusse9dq47g5vo@group.calendar.google.com" . "~/roam/agenda.org")))
+      org-gcal-fetch-file-alist '(((threddast/get-secret 'org-gcal-email-1) .  "~/roam/pages/gcal.org")
+                                  ((threddast/get-secret 'org-gcal-email-2) . "~/roam/agenda.org")))
 (setq! org-gcal-auto-archive nil)
 #+end_src
 
