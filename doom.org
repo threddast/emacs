@@ -458,7 +458,7 @@ Set up id and secret to comunicate with the gcal API
   :hook
   (after-init . org-roam-mode)
   :custom
-  (org-roam-directory "~/roam/pages")
+  (org-roam-directory "~/roam")
   (org-roam-completion-everywhere t)
   (org-roam-capture-templates
     '(("d" "default" plain "%?"
@@ -470,7 +470,7 @@ Set up id and secret to comunicate with the gcal API
        :target (file+head "%<%Y-%m-%d>.org"
                           "%(threddast/print-journal-template \"%<%Y-%m-%d>\")")
        :unarrowed t)))
-  (org-roam-dailies-directory "~/roam/journal"))
+  (org-roam-dailies-directory "~/roam/logs/daily"))
 
 (defun threddast/print-journal-template (date)
   "Returns the daily journal if the date is a weekday, weekly journal if date is Sunday"
@@ -486,7 +486,7 @@ Set up id and secret to comunicate with the gcal API
   (interactive)
   (org-roam-capture- :node (org-roam-node-create)
                      :templates '(("i" "inbox" plain "* TODO %?"
-                                  :target (file+head "inbox.org" "Inbox\n")))))
+                                  :target (file+head "inbox/inbox.org" "Inbox\n")))))
 #+end_src
 
 Change the keybindings for roam
