@@ -35,6 +35,7 @@
 - [[#selectric-mode][Selectric mode]]
 - [[#xkcd][Xkcd]]
 - [[#treemacs][Treemacs]]
+- [[#org-ql][Org-ql]]
 
 * Preamble
 ** Fonts
@@ -1303,4 +1304,8 @@ This would be a config for org-tree-slide, included with the org =+present= flag
 (setq doom-themes-treemacs-theme "doom-colors")
 ;(require 'treemacs-all-the-icons)
 ;(treemacs-load-theme "all-the-icons")
+#+end_src
+* Org-ql
+#+begin_src elisp :tangle packages.el
+(package! org-ql)
 #+end_src
